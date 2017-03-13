@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531160A91E7719AC00C03007 /* Answerwallpaper.jpg */; };
+		531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */ = {isa = PBXBuildFile; fileRef = 531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */; };
 		538FD9C21E6103600067256A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FD9C11E6103600067256A /* AppDelegate.swift */; };
 		538FD9C41E6103600067256A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FD9C31E6103600067256A /* ViewController.swift */; };
 		538FD9C71E6103600067256A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538FD9C51E6103600067256A /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		531160A91E7719AC00C03007 /* Answerwallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Answerwallpaper.jpg; sourceTree = "<group>"; };
+		531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png"; sourceTree = "<group>"; };
 		538FD9BE1E6103600067256A /* GIfmelson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIfmelson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538FD9C11E6103600067256A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538FD9C31E6103600067256A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				538FD9C11E6103600067256A /* AppDelegate.swift */,
 				538FD9C31E6103600067256A /* ViewController.swift */,
 				538FD9C51E6103600067256A /* Main.storyboard */,
+				531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */,
+				531160A91E7719AC00C03007 /* Answerwallpaper.jpg */,
 				53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */,
 				538FD9D31E6103990067256A /* gif.swift */,
 				538FD9D71E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif */,
@@ -140,8 +146,10 @@
 			files = (
 				538FD9CC1E6103600067256A /* LaunchScreen.storyboard in Resources */,
 				53979A6E1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif in Resources */,
+				531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */,
 				538FD9C91E6103600067256A /* Assets.xcassets in Resources */,
 				538FD9D61E61040A0067256A /* Free_Background_loop.gif in Resources */,
+				531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */,
 				53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */,
 				538FD9D91E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif in Resources */,
 				538FD9C71E6103600067256A /* Main.storyboard in Resources */,

@@ -9,7 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var number0: UIButton!
+    @IBOutlet weak var number1: UIButton!
+    @IBOutlet weak var number2: UIButton!
+    @IBOutlet weak var number3: UIButton!
+    @IBOutlet weak var number4: UIButton!
+    @IBOutlet weak var number5: UIButton!
+    @IBOutlet weak var number6: UIButton!
+    @IBOutlet weak var number7: UIButton!
+    @IBOutlet weak var number8: UIButton!
+    @IBOutlet weak var number9: UIButton!
+    @IBOutlet weak var AnswerWallpaper: UIImageView!
 
+    @IBOutlet weak var GObuttonn: UIButton!
+    
+    
+    
     @IBOutlet weak var GIfview: UIImageView!
     
     @IBOutlet weak var QuestionLable: UILabel!
@@ -19,7 +36,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         GIfview.loadGif(name: "FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON")
-        
+        Hide()
         RandomQuestions()
     }
 
@@ -98,6 +115,133 @@ class ViewController: UIViewController {
             break
         }
     }
+    
+    func Hide(){
+        AnswerWallpaper.isHidden = true
+        GObuttonn.isHidden = true
+        
+    }
+    func Unhide(){
+        AnswerWallpaper.isHidden = false
+        GObuttonn.isHidden = false
+    }
+    
+    
+    
 
+    @IBAction func number0button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "0"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+            
+    }
+    @IBAction func number1button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "1"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number2button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "2"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number3button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "3"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number4button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "4"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number5button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "5"){
+             Unhide()
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number6button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "6"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    
+    @IBAction func number7button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "7"){
+             Unhide()
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number8button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "8"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func number9button(_ sender: AnyObject) {
+        
+        if (CorrectAnswer == "9"){
+             Unhide()
+            
+        }
+        else {
+            
+            
+        }
+    }
+    @IBAction func GObutton(_ sender: AnyObject) {
+        Hide()
+        RandomQuestions()
+    }
+    
 }
-
