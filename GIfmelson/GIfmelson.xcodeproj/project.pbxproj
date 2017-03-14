@@ -19,6 +19,19 @@
 		538FD9D91E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 538FD9D71E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif */; };
 		53979A6E1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53979A6D1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif */; };
 		53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */ = {isa = PBXBuildFile; fileRef = 53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */; };
+		53CF198C1E78AC4E00E0A538 /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF198B1E78AC4E00E0A538 /* Moveable.swift */; };
+		53CF199A1E78ACEB00E0A538 /* bule.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF198F1E78ACEB00E0A538 /* bule.png */; };
+		53CF199B1E78ACEB00E0A538 /* darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19901E78ACEB00E0A538 /* darkblue.png */; };
+		53CF199C1E78ACEB00E0A538 /* darkgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19911E78ACEB00E0A538 /* darkgreen.png */; };
+		53CF199D1E78ACEB00E0A538 /* darkpink.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19921E78ACEB00E0A538 /* darkpink.png */; };
+		53CF199E1E78ACEB00E0A538 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19931E78ACEB00E0A538 /* green.png */; };
+		53CF199F1E78ACEB00E0A538 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19941E78ACEB00E0A538 /* orange.png */; };
+		53CF19A01E78ACEB00E0A538 /* pink .png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19951E78ACEB00E0A538 /* pink .png */; };
+		53CF19A11E78ACEB00E0A538 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19961E78ACEB00E0A538 /* pink.png */; };
+		53CF19A21E78ACEB00E0A538 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19971E78ACEB00E0A538 /* purple.png */; };
+		53CF19A31E78ACEB00E0A538 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19981E78ACEB00E0A538 /* red.png */; };
+		53CF19A41E78ACEB00E0A538 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19991E78ACEB00E0A538 /* yellow.png */; };
+		53CF19A61E78B0C900E0A538 /* dragger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF19A51E78B0C900E0A538 /* dragger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +49,19 @@
 		538FD9D81E6105A70067256A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Base; path = Base.lproj/Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif; sourceTree = "<group>"; };
 		53979A6D1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif; sourceTree = "<group>"; };
 		53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Hopstarter-Soft-Scraps-Button-Blank-Red.ico"; sourceTree = "<group>"; };
+		53CF198B1E78AC4E00E0A538 /* Moveable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moveable.swift; sourceTree = "<group>"; };
+		53CF198F1E78ACEB00E0A538 /* bule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bule.png; path = cryons/bule.png; sourceTree = "<group>"; };
+		53CF19901E78ACEB00E0A538 /* darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkblue.png; path = cryons/darkblue.png; sourceTree = "<group>"; };
+		53CF19911E78ACEB00E0A538 /* darkgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkgreen.png; path = cryons/darkgreen.png; sourceTree = "<group>"; };
+		53CF19921E78ACEB00E0A538 /* darkpink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkpink.png; path = cryons/darkpink.png; sourceTree = "<group>"; };
+		53CF19931E78ACEB00E0A538 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = cryons/green.png; sourceTree = "<group>"; };
+		53CF19941E78ACEB00E0A538 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = cryons/orange.png; sourceTree = "<group>"; };
+		53CF19951E78ACEB00E0A538 /* pink .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink .png"; path = "cryons/pink .png"; sourceTree = "<group>"; };
+		53CF19961E78ACEB00E0A538 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = cryons/pink.png; sourceTree = "<group>"; };
+		53CF19971E78ACEB00E0A538 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = cryons/purple.png; sourceTree = "<group>"; };
+		53CF19981E78ACEB00E0A538 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = cryons/red.png; sourceTree = "<group>"; };
+		53CF19991E78ACEB00E0A538 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = cryons/yellow.png; sourceTree = "<group>"; };
+		53CF19A51E78B0C900E0A538 /* dragger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +96,20 @@
 			children = (
 				538FD9C11E6103600067256A /* AppDelegate.swift */,
 				538FD9C31E6103600067256A /* ViewController.swift */,
+				53CF198B1E78AC4E00E0A538 /* Moveable.swift */,
 				538FD9C51E6103600067256A /* Main.storyboard */,
+				53CF19A51E78B0C900E0A538 /* dragger.swift */,
+				53CF198F1E78ACEB00E0A538 /* bule.png */,
+				53CF19901E78ACEB00E0A538 /* darkblue.png */,
+				53CF19911E78ACEB00E0A538 /* darkgreen.png */,
+				53CF19921E78ACEB00E0A538 /* darkpink.png */,
+				53CF19931E78ACEB00E0A538 /* green.png */,
+				53CF19941E78ACEB00E0A538 /* orange.png */,
+				53CF19951E78ACEB00E0A538 /* pink .png */,
+				53CF19961E78ACEB00E0A538 /* pink.png */,
+				53CF19971E78ACEB00E0A538 /* purple.png */,
+				53CF19981E78ACEB00E0A538 /* red.png */,
+				53CF19991E78ACEB00E0A538 /* yellow.png */,
 				531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */,
 				531160A91E7719AC00C03007 /* Answerwallpaper.jpg */,
 				53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */,
@@ -145,14 +184,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				538FD9CC1E6103600067256A /* LaunchScreen.storyboard in Resources */,
+				53CF19A11E78ACEB00E0A538 /* pink.png in Resources */,
+				53CF199A1E78ACEB00E0A538 /* bule.png in Resources */,
 				53979A6E1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif in Resources */,
 				531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */,
+				53CF19A21E78ACEB00E0A538 /* purple.png in Resources */,
 				538FD9C91E6103600067256A /* Assets.xcassets in Resources */,
 				538FD9D61E61040A0067256A /* Free_Background_loop.gif in Resources */,
 				531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */,
+				53CF199E1E78ACEB00E0A538 /* green.png in Resources */,
+				53CF19A31E78ACEB00E0A538 /* red.png in Resources */,
+				53CF199F1E78ACEB00E0A538 /* orange.png in Resources */,
+				53CF199D1E78ACEB00E0A538 /* darkpink.png in Resources */,
 				53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */,
+				53CF199B1E78ACEB00E0A538 /* darkblue.png in Resources */,
 				538FD9D91E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif in Resources */,
 				538FD9C71E6103600067256A /* Main.storyboard in Resources */,
+				53CF19A41E78ACEB00E0A538 /* yellow.png in Resources */,
+				53CF19A01E78ACEB00E0A538 /* pink .png in Resources */,
+				53CF199C1E78ACEB00E0A538 /* darkgreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CF198C1E78AC4E00E0A538 /* Moveable.swift in Sources */,
 				538FD9C41E6103600067256A /* ViewController.swift in Sources */,
 				538FD9D41E6103990067256A /* gif.swift in Sources */,
+				53CF19A61E78B0C900E0A538 /* dragger.swift in Sources */,
 				538FD9C21E6103600067256A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
