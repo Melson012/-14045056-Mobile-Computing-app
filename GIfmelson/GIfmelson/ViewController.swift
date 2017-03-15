@@ -11,16 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var number0: UIButton!
-    @IBOutlet weak var number1: UIButton!
-    @IBOutlet weak var number2: UIButton!
-    @IBOutlet weak var number3: UIButton!
-    @IBOutlet weak var number4: UIButton!
-    @IBOutlet weak var number5: UIButton!
-    @IBOutlet weak var number6: UIButton!
-    @IBOutlet weak var number7: UIButton!
-    @IBOutlet weak var number8: UIButton!
-    @IBOutlet weak var number9: UIButton!
+    @IBOutlet weak var number0: ShakeButton!
+    @IBOutlet weak var number1: ShakeButton!
+    @IBOutlet weak var number2: ShakeButton!
+    @IBOutlet weak var number3: ShakeButton!
+    @IBOutlet weak var number4: ShakeButton!
+    @IBOutlet weak var number5: ShakeButton!
+    @IBOutlet weak var number6: ShakeButton!
+    @IBOutlet weak var number7: ShakeButton!
+    @IBOutlet weak var number8: ShakeButton!
+    @IBOutlet weak var number9: ShakeButton!
+    
     @IBOutlet weak var AnswerWallpaper: UIImageView!
 
     @IBOutlet weak var GObuttonn: UIButton!
@@ -71,7 +72,7 @@ class ViewController: UIViewController {
             break
         case 4:
             
-            QuestionLable.text = "1+3"; QuestionLable.text = "4+0"; QuestionLable.text = "2+0"
+            QuestionLable.text = "1+3"; QuestionLable.text = "4+0"; QuestionLable.text = "2+2"
             CorrectAnswer = "4"
             
             break
@@ -135,10 +136,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        
             
     }
     @IBAction func number1button(_ sender: AnyObject) {
@@ -147,10 +181,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "2") {
+            number2.shake()
             
         }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number2button(_ sender: AnyObject) {
         
@@ -158,10 +225,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number3button(_ sender: AnyObject) {
         
@@ -169,10 +269,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number4button(_ sender: AnyObject) {
         
@@ -180,20 +313,86 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number5button(_ sender: AnyObject) {
         
         if (CorrectAnswer == "5"){
              Unhide()
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number6button(_ sender: AnyObject) {
         
@@ -201,10 +400,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     
     @IBAction func number7button(_ sender: AnyObject) {
@@ -212,10 +444,43 @@ class ViewController: UIViewController {
         if (CorrectAnswer == "7"){
              Unhide()
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number8button(_ sender: AnyObject) {
         
@@ -223,10 +488,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "9") {
+            number9.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func number9button(_ sender: AnyObject) {
         
@@ -234,10 +532,43 @@ class ViewController: UIViewController {
              Unhide()
             
         }
-        else {
-            
+        else if (CorrectAnswer == "1") {
+            number1.shake()
             
         }
+        else if (CorrectAnswer == "2") {
+            number2.shake()
+            
+        }
+        else if (CorrectAnswer == "3") {
+            number3.shake()
+            
+        }
+        else if (CorrectAnswer == "4") {
+            number4.shake()
+            
+        }
+        else if (CorrectAnswer == "5") {
+            number5.shake()
+            
+        }
+        else if (CorrectAnswer == "6") {
+            number6.shake()
+            
+        }
+        else if (CorrectAnswer == "7") {
+            number7.shake()
+            
+        }
+        else if (CorrectAnswer == "8") {
+            number8.shake()
+            
+        }
+        else if (CorrectAnswer == "0") {
+            number0.shake()
+            
+        }
+
     }
     @IBAction func GObutton(_ sender: AnyObject) {
         Hide()
