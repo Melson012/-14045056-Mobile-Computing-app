@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531160A91E7719AC00C03007 /* Answerwallpaper.jpg */; };
 		531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */ = {isa = PBXBuildFile; fileRef = 531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */; };
+		536110551E7D75790056FD60 /* happykids.png in Resources */ = {isa = PBXBuildFile; fileRef = 536110541E7D75790056FD60 /* happykids.png */; };
 		536CD3381E79932C00060F96 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 536CD3371E79932C00060F96 /* play_again.png */; };
 		536CD35E1E79AECC00060F96 /* ShakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CD35D1E79AECC00060F96 /* ShakeButton.swift */; };
 		538FD9C21E6103600067256A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FD9C11E6103600067256A /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 		538FD9D41E6103990067256A /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FD9D31E6103990067256A /* gif.swift */; };
 		538FD9D61E61040A0067256A /* Free_Background_loop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 538FD9D51E61040A0067256A /* Free_Background_loop.gif */; };
 		538FD9D91E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif in Resources */ = {isa = PBXBuildFile; fileRef = 538FD9D71E6105A70067256A /* Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif */; };
+		5394930A1E7D986200261D18 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 539493091E7D986200261D18 /* star_kids.png */; };
 		53979A6E1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53979A6D1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif */; };
 		53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */ = {isa = PBXBuildFile; fileRef = 53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */; };
 		53CF198C1E78AC4E00E0A538 /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF198B1E78AC4E00E0A538 /* Moveable.swift */; };
@@ -39,6 +41,7 @@
 /* Begin PBXFileReference section */
 		531160A91E7719AC00C03007 /* Answerwallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Answerwallpaper.jpg; sourceTree = "<group>"; };
 		531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png"; sourceTree = "<group>"; };
+		536110541E7D75790056FD60 /* happykids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happykids.png; sourceTree = "<group>"; };
 		536CD3371E79932C00060F96 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
 		536CD35D1E79AECC00060F96 /* ShakeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeButton.swift; sourceTree = "<group>"; };
 		538FD9BE1E6103600067256A /* GIfmelson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIfmelson.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,7 @@
 		538FD9D31E6103990067256A /* gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
 		538FD9D51E61040A0067256A /* Free_Background_loop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Free_Background_loop.gif; sourceTree = "<group>"; };
 		538FD9D81E6105A70067256A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Base; path = Base.lproj/Fondo_Video_Background_Full_HD_Burbujas_Divertidas.gif; sourceTree = "<group>"; };
+		539493091E7D986200261D18 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		53979A6D1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif; sourceTree = "<group>"; };
 		53979A6F1E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Hopstarter-Soft-Scraps-Button-Blank-Red.ico"; sourceTree = "<group>"; };
 		53CF198B1E78AC4E00E0A538 /* Moveable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moveable.swift; sourceTree = "<group>"; };
@@ -102,9 +106,11 @@
 				538FD9C31E6103600067256A /* ViewController.swift */,
 				53CF198B1E78AC4E00E0A538 /* Moveable.swift */,
 				538FD9C51E6103600067256A /* Main.storyboard */,
+				539493091E7D986200261D18 /* star_kids.png */,
 				536CD35D1E79AECC00060F96 /* ShakeButton.swift */,
 				53CF19A51E78B0C900E0A538 /* dragger.swift */,
 				536CD3371E79932C00060F96 /* play_again.png */,
+				536110541E7D75790056FD60 /* happykids.png */,
 				53CF198F1E78ACEB00E0A538 /* bule.png */,
 				53CF19901E78ACEB00E0A538 /* darkblue.png */,
 				53CF19911E78ACEB00E0A538 /* darkgreen.png */,
@@ -189,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5394930A1E7D986200261D18 /* star_kids.png in Resources */,
 				536CD3381E79932C00060F96 /* play_again.png in Resources */,
 				538FD9CC1E6103600067256A /* LaunchScreen.storyboard in Resources */,
 				53CF19A11E78ACEB00E0A538 /* pink.png in Resources */,
@@ -202,6 +209,7 @@
 				53CF199E1E78ACEB00E0A538 /* green.png in Resources */,
 				53CF19A31E78ACEB00E0A538 /* red.png in Resources */,
 				53CF199F1E78ACEB00E0A538 /* orange.png in Resources */,
+				536110551E7D75790056FD60 /* happykids.png in Resources */,
 				53CF199D1E78ACEB00E0A538 /* darkpink.png in Resources */,
 				53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */,
 				53CF199B1E78ACEB00E0A538 /* darkblue.png in Resources */,

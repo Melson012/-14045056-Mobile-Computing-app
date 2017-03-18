@@ -24,7 +24,7 @@
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="so3-jN-N8o">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yn5-jl-jcy" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yn5-jl-jcy" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.99607473611831665" green="0.99220293760299683" blue="0.99199241399765015" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <color key="tintColor" red="1" green="0.96985571780000002" blue="0.0004047529727" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,7 +43,7 @@
                                                     <action selector="number0button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iI-tW-vTy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLg-8K-T9T" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLg-8K-T9T" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.051045313477516174" green="0.71751457452774048" blue="0.96736890077590942" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="5">
@@ -65,7 +65,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vpb-gZ-I0p">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcN-y2-zxF" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcN-y2-zxF" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.93575501441955566" green="0.19377869367599487" blue="0.15115192532539368" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="1">
@@ -83,7 +83,7 @@
                                                     <action selector="number1button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1fK-Le-aNE"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S61-gf-wM1" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S61-gf-wM1" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.038999542593955994" green="0.30862370133399963" blue="0.93270087242126465" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="6">
@@ -105,7 +105,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Etg-pb-htT">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYE-MK-avP" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYE-MK-avP" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.93862909078598022" green="0.93260949850082397" blue="0.13778185844421387" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="2">
@@ -123,7 +123,7 @@
                                                     <action selector="number2button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X2Y-0S-dlo"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2s-sd-0RM" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2s-sd-0RM" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.59637969732284546" green="0.032689008861780167" blue="0.97596925497055054" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="7">
@@ -145,7 +145,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Sd-7w-Uea">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETr-LT-OnS" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETr-LT-OnS" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="3">
@@ -163,7 +163,7 @@
                                                     <action selector="number3button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zQK-C4-LUT"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOu-Yg-X9x" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOu-Yg-X9x" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.91863435506820679" green="0.0088443625718355179" blue="0.99335068464279175" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="8">
@@ -185,7 +185,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="a5o-4b-J6v">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBk-Zx-7at" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBk-Zx-7at" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.23165985941886902" green="0.92239117622375488" blue="0.71385800838470459" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="4">
@@ -203,7 +203,7 @@
                                                     <action selector="number4button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r3a-O0-Fab"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSg-H8-laN" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSg-H8-laN" customClass="ShakeButton" customModule="GIfmelson" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.99932390451431274" green="0.0029532636981457472" blue="0.43273872137069702" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="9">
@@ -298,8 +298,36 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Answerwallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-OB-0x9">
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-T6-Gs4" userLabel="star_kids1.png">
+                                <frame key="frameInset" minX="79.14%" minY="267" width="157.5" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="kUf-C5-XFt" userLabel="star_kids2.png">
+                                <frame key="frameInset" minX="20" minY="120" width="78" height="69"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ko-mi-y7h" userLabel="star_kids3.png">
+                                <frame key="frameInset" minY="447" width="97" height="87" maxX="30.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="I37-ST-vnP" userLabel="star_kids4.png">
+                                <frame key="frameInset" minX="7.77%" minY="382" width="111.5" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bsz-xQ-BmJ" userLabel="star_kids5.png">
+                                <frame key="frameInset" minY="186" width="50.5" height="50" maxX="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgi-1B-boX" userLabel="star_kids6.png">
+                                <frame key="frameInset" minX="40" minY="302" width="38" height="43"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="OmN-5m-sbi">
+                                <frame key="frameInset" minY="76" width="53.5" height="58" maxX="105.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqX-xW-9jP">
-                                <frame key="frameInset" minX="26" minY="29.86%" height="180" maxX="38"/>
+                                <frame key="frameInset" minX="22" minY="29.43%" height="180.5" maxX="40.5"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
@@ -377,6 +405,13 @@
                         <outlet property="number7" destination="C2s-sd-0RM" id="THl-Tc-C7m"/>
                         <outlet property="number8" destination="OOu-Yg-X9x" id="vaH-W3-KrP"/>
                         <outlet property="number9" destination="hSg-H8-laN" id="ttq-LM-8fl"/>
+                        <outlet property="star1" destination="wSr-T6-Gs4" id="ySA-Io-bE3"/>
+                        <outlet property="star2" destination="kUf-C5-XFt" id="Bzt-Un-Gd3"/>
+                        <outlet property="star3" destination="4Ko-mi-y7h" id="HEf-Jg-ctd"/>
+                        <outlet property="star4" destination="I37-ST-vnP" id="9xi-Qu-u1c"/>
+                        <outlet property="star5" destination="Bsz-xQ-BmJ" id="oje-sJ-D5D"/>
+                        <outlet property="star6" destination="xgi-1B-boX" id="Ul2-9v-uce"/>
+                        <outlet property="star7" destination="OmN-5m-sbi" id="5r3-32-Ffn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -395,6 +430,7 @@
         <image name="play_again.png" width="216" height="218"/>
         <image name="purple.png" width="87" height="401"/>
         <image name="red.png" width="87" height="401"/>
+        <image name="star_kids.png" width="256" height="256"/>
         <image name="yellow.png" width="87" height="401"/>
     </resources>
 </document>

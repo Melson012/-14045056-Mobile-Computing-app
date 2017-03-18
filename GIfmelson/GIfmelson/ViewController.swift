@@ -22,6 +22,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var number8: ShakeButton!
     @IBOutlet weak var number9: ShakeButton!
     
+    
+    @IBOutlet weak var star1: UIImageView!
+    @IBOutlet weak var star2: UIImageView!
+    @IBOutlet weak var star3: UIImageView!
+    @IBOutlet weak var star4: UIImageView!
+    @IBOutlet weak var star5: UIImageView!
+    @IBOutlet weak var star6: UIImageView!
+    @IBOutlet weak var star7: UIImageView!
+    
     @IBOutlet weak var AnswerWallpaper: UIImageView!
 
     @IBOutlet weak var GObuttonn: UIButton!
@@ -120,11 +129,25 @@ class ViewController: UIViewController {
     func Hide(){
         AnswerWallpaper.isHidden = true
         GObuttonn.isHidden = true
+        star1.isHidden = true
+        star2.isHidden = true
+        star3.isHidden = true
+        star4.isHidden = true
+        star5.isHidden = true
+        star6.isHidden = true
+        star7.isHidden = true
         
     }
     func Unhide(){
         AnswerWallpaper.isHidden = false
         GObuttonn.isHidden = false
+        star1.isHidden = false
+        star2.isHidden = false
+        star3.isHidden = false
+        star4.isHidden = false
+        star5.isHidden = false
+        star6.isHidden = false
+        star7.isHidden = false
     }
     
     
