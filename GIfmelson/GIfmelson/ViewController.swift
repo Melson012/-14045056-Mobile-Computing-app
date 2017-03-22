@@ -23,13 +23,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var number9: ShakeButton!
     
     
-    @IBOutlet weak var star1: UIImageView!
+    
+    @IBOutlet weak var star1: starshake!
+    @IBOutlet weak var star3: starshake!
+    @IBOutlet weak var star4: starshake!
+    @IBOutlet weak var star5: starshake!
+    @IBOutlet weak var star6: starshake!
+    @IBOutlet weak var star7: starshake!
+    
+    
     @IBOutlet weak var star2: UIImageView!
-    @IBOutlet weak var star3: UIImageView!
-    @IBOutlet weak var star4: UIImageView!
-    @IBOutlet weak var star5: UIImageView!
-    @IBOutlet weak var star6: UIImageView!
-    @IBOutlet weak var star7: UIImageView!
+    
+    
+    
+    
+    
     
     @IBOutlet weak var AnswerWallpaper: UIImageView!
 
@@ -45,9 +53,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        RandomQuestions()
         GIfview.loadGif(name: "FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON")
         Hide()
-        RandomQuestions()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -125,6 +135,14 @@ class ViewController: UIViewController {
             break
         }
     }
+    func shakeit(){
+        star1.shake1()
+        star3.shake1()
+        star4.shake1()
+        star5.shake1()
+        star6.shake1()
+        star7.shake1()
+    }
     
     func Hide(){
         AnswerWallpaper.isHidden = true
@@ -157,6 +175,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "0"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -202,6 +221,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "1"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "2") {
@@ -246,6 +266,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "2"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -290,6 +311,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "3"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -334,6 +356,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "4"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -378,6 +401,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "5"){
              Unhide()
+            shakeit()
         }
         else if (CorrectAnswer == "1") {
             number1.shake()
@@ -421,6 +445,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "6"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -466,6 +491,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "7"){
              Unhide()
+            shakeit()
         }
         else if (CorrectAnswer == "1") {
             number1.shake()
@@ -509,6 +535,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "8"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {
@@ -553,6 +580,7 @@ class ViewController: UIViewController {
         
         if (CorrectAnswer == "9"){
              Unhide()
+            shakeit()
             
         }
         else if (CorrectAnswer == "1") {

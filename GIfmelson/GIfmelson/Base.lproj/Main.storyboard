@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zLV-p4-u88">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -7,6 +7,70 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller1-->
+        <scene sceneID="uc1-c8-Bx2">
+            <objects>
+                <viewController id="zLV-p4-u88" customClass="ViewController1" customModule="GIfmelson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pDp-fw-CKc"/>
+                        <viewControllerLayoutGuide type="bottom" id="vLZ-oz-3WA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bkz-rN-tcC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Entrypage.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Gh-bZ-qKg">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-3N-K99">
+                                <frame key="frameInset" minX="9.18%" minY="57.54%" width="81.76%" height="23.10%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <state key="normal" title="GO" backgroundImage="buttongo.png">
+                                    <color key="titleColor" red="0.038999542593955994" green="0.30862370133399963" blue="0.93270087242126465" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="Pnw-3N-K99" id="adn-x0-7gB">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkblue.png" translatesAutoresizingMaskIntoConstraints="NO" id="anA-Bf-hrD" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="15.58%" minY="39.13%" width="7.37%" height="17.39%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkpink.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbp-uO-gZp" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="30.44%" minY="39.13%" width="7.13%" height="17.39%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="eLv-38-l2Z" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="46.14%" minY="39.13%" width="7.25%" height="17.39%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnt-1R-QsY" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="61.35%" minY="39.13%" width="7.13%" height="17.39%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="IeP-NT-P8n" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="77.17%" minY="39.13%" width="7.37%" height="17.39%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueS" destination="anA-Bf-hrD" id="2lP-Qz-cfv"/>
+                        <outlet property="orangeS" destination="eLv-38-l2Z" id="UPR-Vj-flJ"/>
+                        <outlet property="pinkS" destination="hbp-uO-gZp" id="OGO-a6-VKr"/>
+                        <outlet property="redS" destination="rnt-1R-QsY" id="0ZN-Dt-tVe"/>
+                        <outlet property="yellowS" destination="IeP-NT-P8n" id="K4e-Zs-pUt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3JR-Ip-8lP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591.304347826087" y="129.61956521739131"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -243,40 +307,40 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiQ-cQ-KCU">
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkblue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ncc-h3-9x4" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="108" width="26" height="135" maxY="118"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                        <frame key="frameInset" minX="32.28%" minY="37.45%" width="6.31%" height="26.96%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZJd-OS-Ida" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="164" width="30" height="136" maxY="226"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                        <frame key="frameInset" minX="45.87%" minY="16.28%" width="7.28%" height="26.47%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="DdV-j4-IQ6" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="260" minY="251" width="32" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="26.70%" minY="16.08%" width="7.77%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="ngR-T8-oTi" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="141" minY="253" width="31" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="40.29%" minY="37.06%" width="7.52%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkpink.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-1D-dXR" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="125" minY="146" width="30" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="36.41%" minY="16.08%" width="7.28%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-kd-yBi" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="67" minY="251" width="32" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="22.33%" minY="36.67%" width="7.77%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bule.png" translatesAutoresizingMaskIntoConstraints="NO" id="WhG-9G-42i" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="207" minY="146" width="32" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="56.31%" minY="16.08%" width="7.77%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purple.png" translatesAutoresizingMaskIntoConstraints="NO" id="cwb-S0-ps4" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="180" minY="253" width="32" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="49.76%" minY="37.06%" width="7.77%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="nA8-Gu-8Rg" customClass="Moveable" customModule="GIfmelson">
-                                        <frame key="frameInset" minX="220" minY="253" width="32" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <frame key="frameInset" minX="59.47%" minY="37.06%" width="7.77%" height="27.06%"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.05140773206949234" green="0.035669412463903427" blue="0.010595928877592087" alpha="0.17600288120567376" colorSpace="custom" customColorSpace="sRGB"/>
@@ -284,32 +348,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Answerwallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-OB-0x9">
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-T6-Gs4" userLabel="star_kids1.png">
-                                <frame key="frameInset" minX="78.52%" minY="267" width="158" height="131"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-T6-Gs4" userLabel="star_kids1.png" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="78.10%" minY="267" width="156" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ko-mi-y7h" userLabel="star_kids3.png">
-                                <frame key="frameInset" minY="447" width="99" height="87" maxX="32"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ko-mi-y7h" userLabel="star_kids3.png" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minY="447" width="100.5" height="87" maxX="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="I37-ST-vnP" userLabel="star_kids4.png">
-                                <frame key="frameInset" minX="6.93%" minY="382" width="111" height="92"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="I37-ST-vnP" userLabel="star_kids4.png" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minX="6.92%" minY="382" width="110.5" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bsz-xQ-BmJ" userLabel="star_kids5.png">
-                                <frame key="frameInset" minY="186" width="51" height="50" maxX="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bsz-xQ-BmJ" userLabel="star_kids5.png" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minY="186" width="50.5" height="50" maxX="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgi-1B-boX" userLabel="star_kids6.png">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgi-1B-boX" userLabel="star_kids6.png" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
                                 <frame key="frameInset" minX="40" minY="302" width="38" height="43"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="OmN-5m-sbi">
-                                <frame key="frameInset" minY="76" width="55" height="58" maxX="106"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="OmN-5m-sbi" customClass="starshake" customModule="GIfmelson" customModuleProvider="target">
+                                <frame key="frameInset" minY="76" width="54" height="58" maxX="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqX-xW-9jP">
-                                <frame key="frameInset" minX="20" minY="29.50%" height="180" maxX="42"/>
+                                <frame key="frameInset" minX="20" minY="29.16%" height="180.5" maxX="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
@@ -365,12 +429,12 @@
                         <outlet property="number7" destination="C2s-sd-0RM" id="THl-Tc-C7m"/>
                         <outlet property="number8" destination="OOu-Yg-X9x" id="vaH-W3-KrP"/>
                         <outlet property="number9" destination="hSg-H8-laN" id="ttq-LM-8fl"/>
-                        <outlet property="star1" destination="wSr-T6-Gs4" id="ySA-Io-bE3"/>
-                        <outlet property="star3" destination="4Ko-mi-y7h" id="HEf-Jg-ctd"/>
-                        <outlet property="star4" destination="I37-ST-vnP" id="9xi-Qu-u1c"/>
-                        <outlet property="star5" destination="Bsz-xQ-BmJ" id="oje-sJ-D5D"/>
-                        <outlet property="star6" destination="xgi-1B-boX" id="Ul2-9v-uce"/>
-                        <outlet property="star7" destination="OmN-5m-sbi" id="5r3-32-Ffn"/>
+                        <outlet property="star1" destination="wSr-T6-Gs4" id="iUe-Pr-YZR"/>
+                        <outlet property="star3" destination="4Ko-mi-y7h" id="Rx1-fS-BSg"/>
+                        <outlet property="star4" destination="I37-ST-vnP" id="1yC-Ju-dHy"/>
+                        <outlet property="star5" destination="Bsz-xQ-BmJ" id="8Tv-1T-met"/>
+                        <outlet property="star6" destination="xgi-1B-boX" id="Ryp-7V-5tw"/>
+                        <outlet property="star7" destination="OmN-5m-sbi" id="AX6-cf-zdz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -380,7 +444,9 @@
     </scenes>
     <resources>
         <image name="Answerwallpaper.jpg" width="852" height="480"/>
+        <image name="Entrypage.png" width="720" height="404"/>
         <image name="bule.png" width="87" height="401"/>
+        <image name="buttongo.png" width="283" height="170"/>
         <image name="darkblue.png" width="87" height="401"/>
         <image name="darkgreen.png" width="87" height="401"/>
         <image name="darkpink.png" width="87" height="401"/>
