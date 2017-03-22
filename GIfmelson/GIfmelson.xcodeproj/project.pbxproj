@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531160A91E7719AC00C03007 /* Answerwallpaper.jpg */; };
 		531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */ = {isa = PBXBuildFile; fileRef = 531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */; };
+		535199AA1E81A2C70076FBF0 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 535199A91E81A2C70076FBF0 /* bottom.png */; };
 		536110551E7D75790056FD60 /* happykids.png in Resources */ = {isa = PBXBuildFile; fileRef = 536110541E7D75790056FD60 /* happykids.png */; };
 		536CD3381E79932C00060F96 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 536CD3371E79932C00060F96 /* play_again.png */; };
 		536CD35E1E79AECC00060F96 /* ShakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CD35D1E79AECC00060F96 /* ShakeButton.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		531160A91E7719AC00C03007 /* Answerwallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Answerwallpaper.jpg; sourceTree = "<group>"; };
 		531160AB1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png"; sourceTree = "<group>"; };
+		535199A91E81A2C70076FBF0 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
 		536110541E7D75790056FD60 /* happykids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happykids.png; sourceTree = "<group>"; };
 		536CD3371E79932C00060F96 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
 		536CD35D1E79AECC00060F96 /* ShakeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeButton.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				538FD9C31E6103600067256A /* ViewController.swift */,
 				53CF198B1E78AC4E00E0A538 /* Moveable.swift */,
 				538FD9C51E6103600067256A /* Main.storyboard */,
+				535199A91E81A2C70076FBF0 /* bottom.png */,
 				539493091E7D986200261D18 /* star_kids.png */,
 				536CD35D1E79AECC00060F96 /* ShakeButton.swift */,
 				53CF19A51E78B0C900E0A538 /* dragger.swift */,
@@ -205,6 +208,7 @@
 				53CF19A21E78ACEB00E0A538 /* purple.png in Resources */,
 				538FD9C91E6103600067256A /* Assets.xcassets in Resources */,
 				538FD9D61E61040A0067256A /* Free_Background_loop.gif in Resources */,
+				535199AA1E81A2C70076FBF0 /* bottom.png in Resources */,
 				531160AC1E771AB400C03007 /* 4402625ea97b6b7d292c12b352f8ed53_big-image-png-clipart-thumbs-up-png_2400-2400.png in Resources */,
 				53CF199E1E78ACEB00E0A538 /* green.png in Resources */,
 				53CF19A31E78ACEB00E0A538 /* red.png in Resources */,

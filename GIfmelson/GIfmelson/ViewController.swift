@@ -130,7 +130,7 @@ class ViewController: UIViewController {
         AnswerWallpaper.isHidden = true
         GObuttonn.isHidden = true
         star1.isHidden = true
-        star2.isHidden = true
+        
         star3.isHidden = true
         star4.isHidden = true
         star5.isHidden = true
@@ -142,7 +142,7 @@ class ViewController: UIViewController {
         AnswerWallpaper.isHidden = false
         GObuttonn.isHidden = false
         star1.isHidden = false
-        star2.isHidden = false
+        
         star3.isHidden = false
         star4.isHidden = false
         star5.isHidden = false

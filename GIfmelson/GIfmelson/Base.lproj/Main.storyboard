@@ -240,82 +240,64 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bule.png" translatesAutoresizingMaskIntoConstraints="NO" id="WhG-9G-42i" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="186" minY="384" width="32" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="ngI-YS-s37"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="darkblue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ncc-h3-9x4" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="226" minY="382" width="33" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="Vsd-vj-hPr"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZJd-OS-Ida" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="146" minY="384" width="32" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="ZkB-WN-iee"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="nA8-Gu-8Rg" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="106" minY="382" width="32" height="117"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="iHf-Lf-eYV"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="purple.png" translatesAutoresizingMaskIntoConstraints="NO" id="cwb-S0-ps4" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="66" minY="382" width="32" height="117"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="swF-CC-net"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="DdV-j4-IQ6" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="26" minY="384" width="32" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="kJY-OV-e9t"/>
-                                    <constraint firstAttribute="width" constant="32" id="vuZ-P4-7Y8"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="darkgreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="ngR-T8-oTi" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="267" minY="383" width="31" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="31" id="Hny-7E-Msq"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="darkpink.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-1D-dXR" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="306" minY="383" width="30" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="n5d-tS-Kim"/>
-                                </constraints>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-kd-yBi" customClass="Moveable" customModule="GIfmelson">
-                                <frame key="frameInset" minX="344" minY="383" width="32" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="hdI-SU-2hM"/>
-                                </constraints>
-                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiQ-cQ-KCU">
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkblue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ncc-h3-9x4" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="108" width="26" height="135" maxY="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZJd-OS-Ida" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="164" width="30" height="136" maxY="226"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="DdV-j4-IQ6" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="260" minY="251" width="32" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="ngR-T8-oTi" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="141" minY="253" width="31" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkpink.png" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-1D-dXR" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="125" minY="146" width="30" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-kd-yBi" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="67" minY="251" width="32" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bule.png" translatesAutoresizingMaskIntoConstraints="NO" id="WhG-9G-42i" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="207" minY="146" width="32" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purple.png" translatesAutoresizingMaskIntoConstraints="NO" id="cwb-S0-ps4" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="180" minY="253" width="32" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="nA8-Gu-8Rg" customClass="Moveable" customModule="GIfmelson">
+                                        <frame key="frameInset" minX="220" minY="253" width="32" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.05140773206949234" green="0.035669412463903427" blue="0.010595928877592087" alpha="0.17600288120567376" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Answerwallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-OB-0x9">
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-T6-Gs4" userLabel="star_kids1.png">
-                                <frame key="frameInset" minX="79.14%" minY="267" width="157.5" height="131"/>
+                                <frame key="frameInset" minX="78.52%" minY="267" width="158" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="kUf-C5-XFt" userLabel="star_kids2.png">
-                                <frame key="frameInset" minX="20" minY="120" width="78" height="69"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ko-mi-y7h" userLabel="star_kids3.png">
-                                <frame key="frameInset" minY="447" width="97" height="87" maxX="30.5"/>
+                                <frame key="frameInset" minY="447" width="99" height="87" maxX="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="I37-ST-vnP" userLabel="star_kids4.png">
-                                <frame key="frameInset" minX="7.77%" minY="382" width="111.5" height="92"/>
+                                <frame key="frameInset" minX="6.93%" minY="382" width="111" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bsz-xQ-BmJ" userLabel="star_kids5.png">
-                                <frame key="frameInset" minY="186" width="50.5" height="50" maxX="20.5"/>
+                                <frame key="frameInset" minY="186" width="51" height="50" maxX="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgi-1B-boX" userLabel="star_kids6.png">
@@ -323,11 +305,11 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_kids.png" translatesAutoresizingMaskIntoConstraints="NO" id="OmN-5m-sbi">
-                                <frame key="frameInset" minY="76" width="53.5" height="58" maxX="105.5"/>
+                                <frame key="frameInset" minY="76" width="55" height="58" maxX="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqX-xW-9jP">
-                                <frame key="frameInset" minX="22" minY="29.43%" height="180.5" maxX="40.5"/>
+                                <frame key="frameInset" minX="20" minY="29.50%" height="180" maxX="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
@@ -347,46 +329,24 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DdV-j4-IQ6" firstAttribute="top" secondItem="ZJd-OS-Ida" secondAttribute="top" id="0OC-cM-ATg"/>
                             <constraint firstItem="YWz-x4-e5r" firstAttribute="leading" secondItem="igE-Gr-T0x" secondAttribute="leading" id="23b-gJ-YqT"/>
-                            <constraint firstItem="nA8-Gu-8Rg" firstAttribute="top" secondItem="Ncc-h3-9x4" secondAttribute="top" id="2iL-2q-sJ1"/>
-                            <constraint firstItem="fVJ-1D-dXR" firstAttribute="top" secondItem="PfZ-kd-yBi" secondAttribute="top" id="5VH-YK-n4B"/>
                             <constraint firstItem="tYI-yH-5JV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6dP-4p-fWD"/>
                             <constraint firstItem="tYI-yH-5JV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8aJ-HO-PIN"/>
-                            <constraint firstItem="ZJd-OS-Ida" firstAttribute="top" secondItem="WhG-9G-42i" secondAttribute="top" id="9wp-I8-EhP"/>
-                            <constraint firstItem="ngR-T8-oTi" firstAttribute="top" secondItem="fVJ-1D-dXR" secondAttribute="top" id="F4H-kK-dAm"/>
+                            <constraint firstItem="CiQ-cQ-KCU" firstAttribute="trailing" secondItem="Xhf-OB-0x9" secondAttribute="trailing" id="BzG-MA-d86"/>
                             <constraint firstItem="YWz-x4-e5r" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="FBG-Ki-cAD"/>
                             <constraint firstItem="igE-Gr-T0x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FFF-B8-KbG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PfZ-kd-yBi" secondAttribute="trailing" constant="10" id="GPt-jl-di9"/>
-                            <constraint firstItem="cwb-S0-ps4" firstAttribute="bottom" secondItem="nA8-Gu-8Rg" secondAttribute="bottom" id="HOG-EM-WWC"/>
-                            <constraint firstItem="nA8-Gu-8Rg" firstAttribute="bottom" secondItem="ZJd-OS-Ida" secondAttribute="bottom" id="N2Q-xZ-Fui"/>
-                            <constraint firstItem="WhG-9G-42i" firstAttribute="leading" secondItem="ZJd-OS-Ida" secondAttribute="trailing" constant="8" symbolic="YES" id="NLo-8V-Fvm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="igE-Gr-T0x" secondAttribute="bottom" constant="50" id="RvB-px-0B5"/>
-                            <constraint firstItem="DdV-j4-IQ6" firstAttribute="bottom" secondItem="cwb-S0-ps4" secondAttribute="bottom" id="SOi-IO-XPu"/>
-                            <constraint firstItem="PfZ-kd-yBi" firstAttribute="leading" secondItem="fVJ-1D-dXR" secondAttribute="trailing" constant="8" symbolic="YES" id="Sjq-Mj-cre"/>
+                            <constraint firstItem="CiQ-cQ-KCU" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="SsY-kW-VdT"/>
                             <constraint firstItem="YWz-x4-e5r" firstAttribute="trailing" secondItem="igE-Gr-T0x" secondAttribute="trailing" id="XIH-jM-DWK"/>
-                            <constraint firstItem="ZJd-OS-Ida" firstAttribute="leading" secondItem="nA8-Gu-8Rg" secondAttribute="trailing" constant="8" symbolic="YES" id="XWJ-qX-HWI"/>
-                            <constraint firstItem="fVJ-1D-dXR" firstAttribute="bottom" secondItem="PfZ-kd-yBi" secondAttribute="bottom" id="Y2p-HK-Pby"/>
-                            <constraint firstItem="ngR-T8-oTi" firstAttribute="leading" secondItem="Ncc-h3-9x4" secondAttribute="trailing" constant="8" symbolic="YES" id="Y2t-Nt-Z1L"/>
-                            <constraint firstItem="fVJ-1D-dXR" firstAttribute="leading" secondItem="ngR-T8-oTi" secondAttribute="trailing" constant="8" symbolic="YES" id="ZMF-0c-6l4"/>
                             <constraint firstItem="Xhf-OB-0x9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-22" id="aHl-8H-0PU"/>
-                            <constraint firstItem="Ncc-h3-9x4" firstAttribute="top" secondItem="ngR-T8-oTi" secondAttribute="top" id="aMt-ug-1cF"/>
-                            <constraint firstItem="Ncc-h3-9x4" firstAttribute="bottom" secondItem="ngR-T8-oTi" secondAttribute="bottom" id="cOg-df-WNs"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DdV-j4-IQ6" secondAttribute="bottom" constant="186" id="cxr-Rv-IFY"/>
-                            <constraint firstItem="ZJd-OS-Ida" firstAttribute="bottom" secondItem="WhG-9G-42i" secondAttribute="bottom" id="eMR-9Y-ysC"/>
+                            <constraint firstItem="CiQ-cQ-KCU" firstAttribute="leading" secondItem="tYI-yH-5JV" secondAttribute="leading" id="fIS-Rw-WO2"/>
                             <constraint firstItem="igE-Gr-T0x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="fzF-Pe-cHM"/>
                             <constraint firstItem="tYI-yH-5JV" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="gd7-aJ-9tc"/>
-                            <constraint firstItem="nA8-Gu-8Rg" firstAttribute="leading" secondItem="cwb-S0-ps4" secondAttribute="trailing" constant="8" symbolic="YES" id="hV3-G9-dAi"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ncc-h3-9x4" secondAttribute="bottom" constant="188" id="jNb-Ia-tZa"/>
                             <constraint firstAttribute="trailing" secondItem="tYI-yH-5JV" secondAttribute="trailing" id="mDE-5M-lmp"/>
-                            <constraint firstItem="cwb-S0-ps4" firstAttribute="leading" secondItem="DdV-j4-IQ6" secondAttribute="trailing" constant="8" symbolic="YES" id="mFo-u6-nVL"/>
-                            <constraint firstItem="cwb-S0-ps4" firstAttribute="top" secondItem="nA8-Gu-8Rg" secondAttribute="top" id="mMs-vo-xmw"/>
-                            <constraint firstItem="Ncc-h3-9x4" firstAttribute="leading" secondItem="WhG-9G-42i" secondAttribute="trailing" constant="8" symbolic="YES" id="mnS-Al-if9"/>
                             <constraint firstItem="Xhf-OB-0x9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-5" id="mz0-7I-Ofh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Xhf-OB-0x9" secondAttribute="trailing" constant="-18" id="nBN-1U-7JP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xhf-OB-0x9" secondAttribute="bottom" constant="1" id="ncH-OP-muA"/>
-                            <constraint firstItem="ngR-T8-oTi" firstAttribute="bottom" secondItem="fVJ-1D-dXR" secondAttribute="bottom" id="oEx-ea-Veh"/>
-                            <constraint firstItem="DdV-j4-IQ6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="oHJ-lj-C7g"/>
+                            <constraint firstItem="CiQ-cQ-KCU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="226" id="rd1-Hb-rah"/>
                             <constraint firstItem="tYI-yH-5JV" firstAttribute="centerX" secondItem="igE-Gr-T0x" secondAttribute="centerX" id="vS0-xd-NOR"/>
                         </constraints>
                     </view>
@@ -406,7 +366,6 @@
                         <outlet property="number8" destination="OOu-Yg-X9x" id="vaH-W3-KrP"/>
                         <outlet property="number9" destination="hSg-H8-laN" id="ttq-LM-8fl"/>
                         <outlet property="star1" destination="wSr-T6-Gs4" id="ySA-Io-bE3"/>
-                        <outlet property="star2" destination="kUf-C5-XFt" id="Bzt-Un-Gd3"/>
                         <outlet property="star3" destination="4Ko-mi-y7h" id="HEf-Jg-ctd"/>
                         <outlet property="star4" destination="I37-ST-vnP" id="9xi-Qu-u1c"/>
                         <outlet property="star5" destination="Bsz-xQ-BmJ" id="oje-sJ-D5D"/>
@@ -416,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="131.25"/>
+            <point key="canvasLocation" x="128.80000000000001" y="129.98500749625188"/>
         </scene>
     </scenes>
     <resources>
