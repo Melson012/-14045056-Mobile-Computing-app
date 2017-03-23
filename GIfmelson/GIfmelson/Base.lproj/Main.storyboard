@@ -24,7 +24,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-3N-K99">
-                                <frame key="frameInset" minX="9.18%" minY="57.54%" width="81.76%" height="23.10%"/>
+                                <frame key="frameInset" minX="8.94%" minY="57.47%" width="81.88%" height="22.89%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
                                 <state key="normal" title="GO" backgroundImage="buttongo.png">
@@ -37,25 +37,37 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkblue.png" translatesAutoresizingMaskIntoConstraints="NO" id="anA-Bf-hrD" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
-                                <frame key="frameInset" minX="15.58%" minY="39.13%" width="7.37%" height="17.39%"/>
+                                <frame key="frameInset" minX="15.22%" minY="39.00%" width="7.49%" height="17.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkpink.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbp-uO-gZp" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
-                                <frame key="frameInset" minX="30.44%" minY="39.13%" width="7.13%" height="17.39%"/>
+                                <frame key="frameInset" minX="30.31%" minY="39.00%" width="6.76%" height="17.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="eLv-38-l2Z" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
-                                <frame key="frameInset" minX="46.14%" minY="39.13%" width="7.25%" height="17.39%"/>
+                                <frame key="frameInset" minX="46.14%" minY="39.00%" width="6.76%" height="17.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnt-1R-QsY" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
-                                <frame key="frameInset" minX="61.35%" minY="39.13%" width="7.13%" height="17.39%"/>
+                                <frame key="frameInset" minX="60.75%" minY="39.00%" width="7.25%" height="17.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="IeP-NT-P8n" customClass="StartPageAnimation" customModule="GIfmelson" customModuleProvider="target">
-                                <frame key="frameInset" minX="77.17%" minY="39.13%" width="7.37%" height="17.39%"/>
+                                <frame key="frameInset" minX="76.93%" minY="39.00%" width="7.37%" height="17.39%"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acw-62-Huc">
+                                <frame key="frameInset" minX="8.94%" minY="22.76%" width="81.88%" height="8.70%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="65"/>
+                                <color key="textColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -390,6 +402,20 @@
                                     <action selector="GObutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iHR-bL-y0x"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkF-85-sy6">
+                                <frame key="frameInset" minX="26.81%" minY="51.09%" width="40.58%" height="14.13%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52053111791610718" green="1" blue="0.0020182186271995306" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -419,6 +445,7 @@
                         <outlet property="GIfview" destination="tYI-yH-5JV" id="H3U-K3-5eJ"/>
                         <outlet property="GObuttonn" destination="aqX-xW-9jP" id="KQo-3D-mOK"/>
                         <outlet property="QuestionLable" destination="YWz-x4-e5r" id="8Mn-5I-LE4"/>
+                        <outlet property="finalAnswer" destination="LkF-85-sy6" id="GkO-oT-ucC"/>
                         <outlet property="number0" destination="yn5-jl-jcy" id="cSh-nw-5UF"/>
                         <outlet property="number1" destination="fcN-y2-zxF" id="CdD-BE-Kt1"/>
                         <outlet property="number2" destination="LYE-MK-avP" id="KFW-Ix-nwX"/>
@@ -439,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.80000000000001" y="129.98500749625188"/>
+            <point key="canvasLocation" x="127.53623188405798" y="129.61956521739131"/>
         </scene>
     </scenes>
     <resources>

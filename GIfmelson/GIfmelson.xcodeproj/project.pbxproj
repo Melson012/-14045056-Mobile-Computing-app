@@ -31,6 +31,8 @@
 		53C276C41E832ABC00D4547B /* buttongo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C276C31E832ABC00D4547B /* buttongo.png */; };
 		53C276C61E83347900D4547B /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C276C51E83347900D4547B /* ViewController1.swift */; };
 		53C276C81E83359B00D4547B /* StartPageAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C276C71E83359B00D4547B /* StartPageAnimation.swift */; };
+		53C276CA1E8354AA00D4547B /* Ding - Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53C276C91E8354AA00D4547B /* Ding - Sound.mp3 */; };
+		53C276CC1E84292800D4547B /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C276CB1E84292800D4547B /* welcome.png */; };
 		53CF198C1E78AC4E00E0A538 /* Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF198B1E78AC4E00E0A538 /* Moveable.swift */; };
 		53CF199A1E78ACEB00E0A538 /* bule.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF198F1E78ACEB00E0A538 /* bule.png */; };
 		53CF199B1E78ACEB00E0A538 /* darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF19901E78ACEB00E0A538 /* darkblue.png */; };
@@ -73,6 +75,8 @@
 		53C276C31E832ABC00D4547B /* buttongo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttongo.png; sourceTree = "<group>"; };
 		53C276C51E83347900D4547B /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		53C276C71E83359B00D4547B /* StartPageAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPageAnimation.swift; sourceTree = "<group>"; };
+		53C276C91E8354AA00D4547B /* Ding - Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ding - Sound.mp3"; sourceTree = "<group>"; };
+		53C276CB1E84292800D4547B /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
 		53CF198B1E78AC4E00E0A538 /* Moveable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moveable.swift; sourceTree = "<group>"; };
 		53CF198F1E78ACEB00E0A538 /* bule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bule.png; path = cryons/bule.png; sourceTree = "<group>"; };
 		53CF19901E78ACEB00E0A538 /* darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkblue.png; path = cryons/darkblue.png; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				53C276C71E83359B00D4547B /* StartPageAnimation.swift */,
 				53C276C51E83347900D4547B /* ViewController1.swift */,
 				531344491E82F010007F7A00 /* starshake.swift */,
+				53C276CB1E84292800D4547B /* welcome.png */,
+				53C276C91E8354AA00D4547B /* Ding - Sound.mp3 */,
 				53C276C31E832ABC00D4547B /* buttongo.png */,
 				535199A91E81A2C70076FBF0 /* bottom.png */,
 				539493091E7D986200261D18 /* star_kids.png */,
@@ -225,6 +231,7 @@
 				538FD9CC1E6103600067256A /* LaunchScreen.storyboard in Resources */,
 				53CF19A11E78ACEB00E0A538 /* pink.png in Resources */,
 				53CF199A1E78ACEB00E0A538 /* bule.png in Resources */,
+				53C276CC1E84292800D4547B /* welcome.png in Resources */,
 				53C276C11E8329FD00D4547B /* Gobutton.png in Resources */,
 				53979A6E1E6470E60068D070 /* FONDO_VIDEO_BACKGROUND_FULL_HD_PIZARRON.gif in Resources */,
 				531160AA1E7719AC00C03007 /* Answerwallpaper.jpg in Resources */,
@@ -236,6 +243,7 @@
 				53CF199E1E78ACEB00E0A538 /* green.png in Resources */,
 				53CF19A31E78ACEB00E0A538 /* red.png in Resources */,
 				53CF199F1E78ACEB00E0A538 /* orange.png in Resources */,
+				53C276CA1E8354AA00D4547B /* Ding - Sound.mp3 in Resources */,
 				536110551E7D75790056FD60 /* happykids.png in Resources */,
 				53CF199D1E78ACEB00E0A538 /* darkpink.png in Resources */,
 				53979A701E648DE80068D070 /* Hopstarter-Soft-Scraps-Button-Blank-Red.ico in Resources */,
